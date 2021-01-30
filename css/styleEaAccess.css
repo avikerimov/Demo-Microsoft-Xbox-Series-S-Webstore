@@ -1,0 +1,275 @@
+body {
+    height: auto;
+    color: #ffffff;
+    text-align: center;
+}
+
+#container {
+    width: 1100px;
+    margin: 0px auto;
+    height: 1500px;
+    /*    border: 2px solid green;*/
+    position: relative;
+    padding: 10px 0px;
+/*    background-color: rgba(74, 163, 212, 0.72);*/
+}
+
+#selctedPage {
+    font-size: 15px;
+    font-weight: bolder;
+    color: lawngreen;
+    text-decoration: none;
+}
+
+#top{
+    text-decoration: none;
+    margin-top: 40px;
+    background-color: rgba(74, 163, 212, 0.72);
+    height: 433px;
+}
+
+#eaAccessLogo{
+    padding-left: 25px;
+}
+
+#nfsPic{
+    float: right;
+}
+
+#topLeft{
+    float: left;
+    padding-left: 30px;
+    padding-top: 100px;
+    text-align: left;
+    
+}
+
+#eaSite, #eaSite:hover, #eaSite:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#nfsH2{
+    padding-left: 25px;
+    margin-bottom: 5px;
+    font-size: 25px;
+/*    font-weight: bolder;*/
+}
+
+#nfsTxt, #nfsTxt:hover, #nfsTxt:visited{
+    padding-left: 25px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 100;
+    top: 0px;
+    opacity: 0px;
+}
+
+.joinEa {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.joinEaButton {
+    background-color: #92d93e;
+    border: 1px solid #92d93e;
+    margin-bottom: 00px;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 20px
+}
+
+.joinEaButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.joinEaButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.joinEaButton:hover span {
+    padding-right: 25px;
+}
+
+.joinEaButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#new2Ea{
+    margin-top: 50px;
+    background-color: black;
+    height: 148px; 
+}
+
+#eaPic1{
+    float: right;
+}
+
+#new2EaLeft{
+    float: left;
+    padding-left: 00px;
+    text-align: left;
+}
+
+#new2EaH3{
+    padding-left: 35px;
+    font-size: 25px;
+/*    margin-top: px;*/
+    margin-bottom: 10px;
+}
+
+#new2EaTxt{
+    padding-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.joinEa {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.new2EaNow {
+    color:#ffffff ;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.new2EaButton {
+    background-color: black;
+    border: 1px solid black;
+    margin-bottom: 00px;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0px;
+    width: 260px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 20px
+}
+
+.new2EaButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.new2EaButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.new2EaButton:hover span {
+    padding-right: 25px;
+}
+
+.new2EaButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#getMore{
+    color: black;
+    width: 700px;
+    padding-left: 230px;
+    margin-bottom: 100px
+}
+
+#getMoreBorder{
+    border: 2px solid #30e630;
+    width: 50px;
+    height: 10px;
+    border-radius: 1000px;
+    background-color: #30e630;
+    margin-left: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#getMoreH1{
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+/*    font-weight: bolder;*/
+}
+
+.giveMoreH2{
+    font-size: 35px;
+}
+
+#giveMore{
+    color: black;
+    margin-bottom: 300px
+}
+
+#giveMoreTable{
+    
+    list-style: none;
+}
+
+.giveMoreList{
+    float: left;
+    width: 500px;
+    border-right: 2px solid rgba(78, 76, 76, 0.35);
+}
+
+.giveMoreList:last-child{
+    border-right: none;
+}
+
+#giveMoreLeft{
+    padding-right: 10px;
+}
+
+#giveMoreRight{
+    padding-left: 10px;
+}
+
+#xboxGames{
+    color: black;
+}
+
+#xboxGamesH2{
+    font-size: 35px;
+    margin-top: 60px
+}
+
+#goUp{
+    color: black;
+}
+
+@keyframes slide {
+  0%   { transform: translate(0px,100px); }
+  100% { transform: translate(0px,00px); }
+}
+
+#getMore {
+ animation-name: slide;
+ animation-duration: 3s; 
+ animation-fill-mode: forwards; 
+}

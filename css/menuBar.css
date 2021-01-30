@@ -1,0 +1,89 @@
+/* HOME עיצוב של כיתוב */
+#home {
+    padding: 0px 0px 0px 0px;
+    
+        /* מרחק של האלמנט מצד שמאל לימין */
+}
+
+/* אחראי על הנראות של התפריט */
+.menu {
+    border-radius: 10px;
+    height: 50px;
+    /* גובה */
+    background: linear-gradient(#515351, #1c1f1d);
+    /* צבע הבאקגראונד */
+    margin: 00px 0px 0px 0px;
+    /* הגבול מאלמנטים אחרים - כאן נעשה מרחק מהאלמנט העליון */
+    padding: 10px 0px;
+    /* הגבול של הטקסט הפנימי שבתוך האלמנט */
+    color:#016705;
+    
+}
+
+/* עיצוב של הרשימה */
+#munuList {
+    list-style: none;
+    /* ללא עיצוב - ללא הנקודות שהיו בצד */
+}
+
+#homePage{
+    padding-left: 70px;
+}
+
+/* עיצוב של השורות ברשימה */
+.munuList {
+    float: left;
+    /* הגדרה של המיקוםת באיזה צד יופיעה */
+    padding: 0px 30px 0px 30px;
+    /* הגבול של הטקסט בתוך האלמנט - המרחק אחד מהשני */
+    margin: -7px 0px;
+    /* הגבולות של האלמנט משאר האלמנטים - המרחק בין הטופ לבאטום */
+    height: 30px;
+    /* גובה של כל שורה */
+    border-right: 2px solid #10a516;
+    letter-spacing: 3px;
+    
+    /* הגדרה של גבולות טבלה - רק גבול ימין מוצג */
+}
+
+/* עיצוב של הטבלה הכללית - הורדה של מקל ההפרדה האחרון שלא יוצג */
+.munuList:last-child {
+    border-right: none;
+}
+
+/* מתייחס לעיצוב של כל משפט / לינק */
+.menuLink {
+    text-decoration: none;
+    /* ללא קישוט - ללא הקו התחתון של הלינק */
+    text-transform: uppercase;
+    /* להפוך - את האותיות מקטנות לגדולות */
+    font-size: 15px;
+    /* שינוי גודל */
+    color: white;
+    /* שינוי צבע */
+    line-height: 27px;
+    /*  גובה השורה - לא משנה את הגודל אלא את המיקום ביחס האורך בעמוד */
+}
+
+
+/* שינוי שיקרה כאשר הלחצן של העכבר יהיה על המשפט/לינק */
+.menuLink:hover {
+    color: #016705;
+    /* שינוי צבע */
+    font-size: 20px;
+    /* שינוי גודל */
+    font-weight: bolder;
+    /* שינוי עובי/משקל לבולדר */
+    text-decoration: underline;
+    /* שינוי קישוט - הוספת קו תחתון מתחת למשפט/לינק */
+    transition: font-size 0.5s ease;
+    /* מעבר/שינוי - משנה את הגודל של המשפט/לינק בקצב של חצי שנייה בסגנון איטי */
+    -webkit-transition: font-size 0.5s ease;
+    /* for Safari */
+    -moz-transition: font-size 0.5s ease;
+    /* for Mozilla */
+    -o-transition: font-size 0.5s ease;
+    /* for Opra */
+    -ms-transition: font-size 0.5s ease;
+    /* for Internet Explorer */
+}

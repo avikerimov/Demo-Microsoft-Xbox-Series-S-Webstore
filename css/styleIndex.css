@@ -1,0 +1,196 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.60), #000000, #074307) no-repeat;
+    /*    height: auto;*/
+    height: 1800px;
+    color: #ffffff;
+    text-align: center;
+/*
+    text-transform: uppercase;
+    letter-spacing: 5px
+*/
+}
+
+#top {
+    color: #262424;
+    text-transform: uppercase;
+    letter-spacing: 5px
+}
+
+#container {
+    width: 1650px;
+    margin: 0px auto;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    width: 500px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#meet {
+    position: absolute;
+    top: 120px;
+    left: 160px;
+    font-size: 30px;
+
+}
+
+
+#xboxSX {
+    text-decoration: none;
+    position: relative;
+    transition: all .2s ease-in-out;
+    margin-top: 100px;
+    padding-bottom: 18px
+}
+
+#xboxSX:hover {
+    transform: scale(1.1);
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    position: relative;
+    transition: all .2s ease-in-out;
+    color: white;
+}
+
+#gamepass {
+    text-decoration: none;
+    position: relative;
+    transition: all .2s ease-in-out;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#gamepass:hover {
+    transform: scale(1.1);
+}
+
+#gamepassPic {
+    right: 5000px;
+}
+
+#explore {
+    font-size: 25px;
+    
+}
+
+#eaAccess {
+    text-decoration: none;
+    position: relative;
+    transition: all .2s ease-in-out;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#eaAccess:hover {
+    transform: scale(1.1);
+}
+
+#eaAccessPic {
+    right: 5000px;
+}
+
+#dive {
+    font-size: 25px;
+    
+}
+
+#xboxLiveGold {
+    text-decoration: none;
+    position: relative;
+    transition: all .2s ease-in-out;
+    margin-top: 70px;
+    width: 1400px;
+    margin-left: 85px
+}
+
+#xboxLiveGold:hover {
+    transform: scale(1.1);
+}
+
+#xboxLiveGoldPic {
+    right: 5000px;
+    padding-right: 50px
+}
+
+#xboxLiveGoldtxt {
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+#playTogether{
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 0px;
+}
+
+@keyframes fade {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fadeInEffect {
+ animation-name: fade;
+ animation-duration: 3s; 
+ animation-fill-mode: forwards; 
+}
+
+
+@keyframes slide {
+  0%   { transform: translate(0px,100px); }
+  100% { transform: translate(0px,00px); }
+}
+
+.slideUpEffect {
+ animation-name: slide;
+ animation-duration: 3s; 
+ animation-fill-mode: forwards; 
+}
+
+@keyframes leftRotate {
+  0%   { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.leftRotateEffect {
+ animation-name: leftRotate;
+ animation-duration: 2s; 
+ animation-fill-mode: forwards; 
+}
+
+@keyframes rightRotate {
+  0%   { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.rightRotateEffect {
+ animation-name: rightRotate;
+ animation-duration: 2s; 
+ animation-fill-mode: forwards; 
+}
+
+@keyframes scale {
+  0%   { transform: scale(0.5,0.5); }
+  100% { transform: scale(1,1); }
+}
+
+.zoomInEffect{
+ animation-name: scale;
+ animation-duration: 2s; 
+ animation-fill-mode: forwards; 
+}

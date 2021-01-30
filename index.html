@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XBOX Main Page </title>
+    <link rel="stylesheet" href="css/styleIndex.css">
+
+    <script src="main.js"></script>
+</head>
+
+<body onload="typeWriter()">
+    <div id="container">
+        <div id="top">
+            <h1 id="header"></h1>
+            <img class="fadeInEffect" id="logo" src="pictures/Xbox_Series_Logo.svg.png" width="400" alt="Xbox Logo">
+        </div>
+        <ul>
+            <li class="leftRotateEffect" id="xboxSX">
+
+                <div>
+                    <a href="xboxSX.html">
+                        <img id="xboxSXpic" class="picLink" src="pictures/XboxSeriesX.png" width="500" alt="Xbox Series X Console">
+                        <h2 id="meet">Meet the new <br> Xbox Series X</h2>
+                    </a>
+                </div>
+            </li>
+
+
+            <li class="zoomInEffect" id="gamepass">
+                <div>
+                    <a href="gamePass.html">
+                        <h2 id="explore">Explore your gaming expirens with</h2>
+                        <img id="gamepassPic" src="pictures/Game_Pass.png" width="399" alt="Xbox GamePass Logo">
+                    </a>
+                </div>
+            </li>
+
+
+            <li class="rightRotateEffect" id="eaAccess">
+                <div>
+                    <a href="eaAccess.html">
+                        <h2 id="dive">Dive into a huge library of great games</h2>
+                        <img id="eaAccessPic" src="pictures/ea-access.png" width="405" alt="EA Access Logo">
+                    </a>
+                </div>
+            </li>
+
+            <li class="slideUpEffect" id="xboxLiveGold">
+                <div>
+                    <a href="xboxLiveGold.html">
+                        <h3 id="playTogether">Play together with</h3>
+                        <h2 id="xboxLiveGoldtxt">Xbox Live Gold</h2>
+                        <img id="xboxLiveGoldPic" src="pictures/xbox-games-with-gold.png" width="550" alt="xbox Live Gold Logo">
+                        <img id="xboxLiveGoldPic2" src="pictures/deals_with_gold.png" width="540" alt="xbox Live Gold Logo">
+                    </a>
+                </div>
+            </li>
+
+        </ul>
+
+
+    </div>
+
+    <script>
+        var i = 0;
+        var txt = 'Welcome to the best Gaming World';
+        var speed = 50;
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("header").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+
+    </script>
+</body></html>

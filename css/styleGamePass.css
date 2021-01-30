@@ -1,0 +1,511 @@
+body {
+
+    height: auto;
+    color: #000000;
+    text-align: center;
+
+}
+
+#container {
+    width: 1100px;
+    margin: 0px auto;
+    height: auto;
+    border: 2px solid green;
+    position: relative;
+    padding: 0px 0px 10px 0px;
+    border-top: none;
+    border-radius: 10px;
+}
+
+#selctedPage {
+    font-size: 15px;
+    font-weight: bolder;
+    color: lawngreen;
+    text-decoration: none;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 40px
+}
+
+#top {
+    margin-top: 50px;
+    margin-bottom: 600px;
+}
+
+#logo {
+    margin-left: 1px;
+}
+
+#pic1 {
+    float: right;
+    /*    margin-bottom: 50px*/
+}
+
+#txtPic1 {
+    float: left;
+    padding-top: 20px;
+    text-align: left;
+    /*    margin-bottom: 150px*/
+}
+
+.moveFromTheLeftBorder {
+    padding-left: 20px
+}
+
+.joinNow {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.joinNowButton {
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+    margin-bottom: 00px;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 20px
+}
+
+.joinNowButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.joinNowButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.joinNowButton:hover span {
+    padding-right: 25px;
+}
+
+.joinNowButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#wasterland3 {
+    margin-bottom: 40px;
+    width: 700px;
+}
+
+.borderButtom {
+    position: relative;
+    border: 1px solid green;
+    width: 700px;
+    left: 200px;
+    animation-name: scale;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#gamesH3 {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+#gamesH2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+#gamestxt {
+    margin-bottom: 40px;
+}
+
+#pic2 {
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.gamesLibrary {
+    color: #18c318;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.gamesLibraryButton {
+    background-color: white;
+    border: 1px solid white;
+    margin-bottom: 00px;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0px;
+    width: 270px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.gamesLibraryButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.gamesLibraryButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.gamesLibraryButton:hover span {
+    padding-right: 25px;
+}
+
+.gamesLibraryButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#gameTable {
+    list-style: none;
+    float: right;
+    margin-bottom: 00px;
+    padding-bottom: 0px;
+    /*    height: 1000px;*/
+}
+
+#fortnite {
+    position: relative;
+    left: 0px;
+
+}
+
+#noMansSky {
+    position: relative;
+    left: 150px;
+    top: -275px;
+}
+
+#overwatch {
+    position: relative;
+    left: -150px;
+    top: -591px;
+    margin-bottom: 0px;
+}
+
+#halo {
+    position: relative;
+    left: -100px;
+    top: -7px;
+}
+
+#idxbox {
+    position: relative;
+    left: 140px;
+    top: -283px;
+    margin-bottom: 0px;
+}
+
+.gamesLibraryTxt {
+    text-transform: uppercase;
+    position: absolute;
+    letter-spacing: 5px;
+    font-size: 25px;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.70), #000000);
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+#mostPopular {
+    top: 2377px;
+    left: 500px;
+    width: 600px;
+}
+
+#shooter {
+    top: 2925px;
+    left: 500px;
+    width: 300px;
+}
+
+#action {
+    top: 2600px;
+    left: 500px;
+    width: 300px;
+
+}
+
+#recentlyAdded {
+    top: 2745px;
+    left: 800px;
+    width: 300px;
+}
+
+#names {
+    position: relative;
+    top: -2085px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#games {
+    position: relative;
+    top: 00px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+    /*    margin-bottom: 200px*/
+}
+
+#familyGamingOptions {
+    margin-top: 000px;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 3060px;
+
+    /*    margin-left: 1px;*/
+}
+
+#somethingForEverone {
+    padding-top: 00px;
+    float: left;
+    padding-left: 20px;
+    text-align: left;
+    /*    width: 440px;*/
+    margin: 0px;
+    margin-bottom: 700px;
+}
+
+#familyGamePic {
+    margin-left: 1px;
+    /*    padding-left: 1px;*/
+    float: left;
+}
+
+#borderTopFamilyGamines {
+    margin-bottom: 100px;
+}
+
+#familyGames {
+    margin-top: 00px;
+    float: right;
+    width: 630px;
+}
+
+#familyGamesButton {
+    width: 285px;
+}
+
+#allAccess {
+    margin-top: 200px;
+}
+
+/* ___________________________________________________________________________________________________________*/
+
+#allAccessLogo {
+    margin-top: 20px
+}
+
+#allAccessH3 {
+    margin-bottom: 0px;
+}
+
+#allAccessTxt,
+#allAccessTxt:visited {
+    color: black;
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#learnMoreAllAccess {
+    margin-top: 30px;
+}
+
+#line {
+    text-decoration: line-through;
+}
+
+.small {
+    font-size: 13px;
+}
+
+.option4All {
+    /*    margin-top: 1900px;*/
+    width: 270px;
+    background-color: rgb(46, 149, 46, 0.70);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    /*    position: absolute;*/
+    /*    left: 100px;*/
+    /*    top: 3800px;*/
+    margin-left: 60px;
+    float: left;
+}
+
+
+
+#option2 {
+    background-color: rgba(0, 0, 0, 0.79);
+}
+
+#borderFix {
+    margin-top: 1550px;
+}
+
+.optionList {
+    list-style: inside url(pictures/v_icon2.png);
+    margin-bottom: 30px;
+    /*    text-align: left;*/
+}
+
+.list {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 40px 20px 0px;
+    /*    text-align: left;*/
+}
+
+.listTxt {
+    margin: 0px;
+    padding: 5px 0px;
+    /*    text-align: left;*/
+}
+
+#option1Pc {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+#option1PcButton {
+    background-color: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    margin-bottom: 00px;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+
+
+}
+
+#option1PcButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+#option1PcButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#option1PcButton:hover span {
+    padding-right: 25px;
+}
+
+#option1PcButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#subscription {
+    margin: 50px 0px;
+}
+
+#smallGoldTxt {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 00px;
+}
+
+#goldTxtButtom {
+    margin-top: 10px;
+}
+
+.topicOption {
+    text-transform: uppercase;
+}
+
+#priceTag {
+    margin-bottom: 30px
+}
+
+#bestValue {
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 0px;
+    left: 487px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px;
+    top: 4115px;
+    /*    font-size: ;*/
+    color: white;
+    border: 1px solid black;
+}
+
+#choosePlan {
+    margin-top: 100px;
+    margin-bottom: 50px
+}
+
+#backgroundPic {
+    background-image: url(pictures/backgroundPic2.PNG);
+    /*    background-repeat: ;*/
+    height: 1850px;
+    background-color: white;
+}
+
+#xboxGamePassLogo {
+    margin-top: 100px
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
